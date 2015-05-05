@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7525" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7516"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="center" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PrayerLaunchScreenText" translatesAutoresizingMaskIntoConstraints="NO" id="z3K-b0-nr5">
+                    <rect key="frame" x="140" y="140" width="200" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="6fl-K0-P4l"/>
+                        <constraint firstAttribute="height" constant="70" id="UOM-Ql-Ytr"/>
+                        <constraint firstAttribute="width" constant="156" id="aff-ky-gZq"/>
+                        <constraint firstAttribute="height" constant="70" id="akh-2S-JsF"/>
+                        <constraint firstAttribute="height" constant="50" id="paK-8A-X3S"/>
+                        <constraint firstAttribute="width" constant="200" id="q0l-au-X5o"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="aff-ky-gZq"/>
+                            <exclude reference="akh-2S-JsF"/>
+                            <exclude reference="paK-8A-X3S"/>
+                            <exclude reference="q0l-au-X5o"/>
+                        </mask>
+                    </variation>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.92920595407485962" green="0.9334074854850769" blue="0.93326789140701294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="z3K-b0-nr5" secondAttribute="centerX" id="0Yc-5j-uhG"/>
+                <constraint firstAttribute="centerX" secondItem="z3K-b0-nr5" secondAttribute="centerX" constant="-22" id="BRs-nh-gag"/>
+                <constraint firstAttribute="centerY" secondItem="z3K-b0-nr5" secondAttribute="centerY" id="DbX-U3-uwI"/>
+                <constraint firstAttribute="bottom" secondItem="z3K-b0-nr5" secondAttribute="bottom" constant="215" id="EgI-1J-Uod"/>
+                <constraint firstItem="z3K-b0-nr5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="160" id="FQJ-99-Uhv"/>
+                <constraint firstAttribute="centerX" secondItem="z3K-b0-nr5" secondAttribute="centerX" id="KMY-eb-eCh"/>
+                <constraint firstItem="z3K-b0-nr5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="215" id="c4Y-O0-Vla"/>
+                <constraint firstItem="z3K-b0-nr5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="140" id="e0C-Cz-xOG"/>
+                <constraint firstItem="z3K-b0-nr5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="162" id="pYz-Pc-pb5"/>
+                <constraint firstAttribute="trailing" secondItem="z3K-b0-nr5" secondAttribute="trailing" constant="162" id="vL6-I5-zly"/>
+                <constraint firstItem="z3K-b0-nr5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="160" id="yJE-0L-N2d"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="0Yc-5j-uhG"/>
+                    <exclude reference="BRs-nh-gag"/>
+                    <exclude reference="DbX-U3-uwI"/>
+                    <exclude reference="EgI-1J-Uod"/>
+                    <exclude reference="FQJ-99-Uhv"/>
+                    <exclude reference="c4Y-O0-Vla"/>
+                    <exclude reference="pYz-Pc-pb5"/>
+                    <exclude reference="vL6-I5-zly"/>
+                    <exclude reference="yJE-0L-N2d"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="PrayerLaunchScreenText" width="101" height="35"/>
+    </resources>
+</document>
